@@ -1,25 +1,49 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#000000 - color 1
+#FBFAEE - color 2
+#933DC9 - color 3
+#53118F - color 4
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #FBFAEE;
 }
 
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+    border-radius: 50%;
+}
 
 /* Header & Footer 
 ------------------------------------*/
+.intro {
+    background: #53118F;
+    color: #FBFAEE;
+    padding: 20px;
+}
 
+.socials {
+    background: #000000;
+    color: #FBFAEE;
+    padding: 20px;
+    text-align: center;
+}
 
 
 /* Work Experience
 ------------------------------------*/
+.workExperience {
+    background: #933DC9;
+    padding: 20px;
+}
 
+.education {
+    background: #933DC9;
+    padding: 20px;
+}
 
 
 /* Education
